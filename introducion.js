@@ -22,7 +22,17 @@ if(numero1===2){
     console.log(numero1+" y 2 son diferentes") 
 }
 
-
+for (let i = 0;i<10; i++){
+//array[i]=i*3
+arr.push(i*3);
+}
+console.log(arr);
+for (let i = 10;i>=0; i--);
+if (i%2===0){
+    console.log ("el número"+i+"es par")
+}else{
+    console.log ("el número"+i+"es par")
+}
 
 
 
