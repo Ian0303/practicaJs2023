@@ -1,23 +1,21 @@
-//Ingresar dos valores enteros y enumerar los elementos que los separan.
-//Ejemplo 1: 2 y 6 --> 3 , 4, 5
-//Ejemplo 2: 10 y 5 --> 9, 8, 7, 6
+//Ingresar dos números y mostrar los múltiplos de 3 comprendidos entre ambos.
 
-const numero1 = 3
-const numero2 = 14
+
+const numero1 = 2
+const numero2 = 16
 let numEnMedio = 0
 
 if (numero1<numero2) {
   for (let numEnMedio = numero1 + 1 ; numEnMedio < numero2; numEnMedio++){
+    if (numEnMedio%3 === 0 ) {
         console.log(numEnMedio);
+    } 
   }
 }else{
     for (let numEnMedio = numero1 - 1 ; numEnMedio < numero2; numEnMedio--){
-        console.log(numEnMedio);
+        if (numEnMedio%3 === 0 ) {
+            console.log(numEnMedio);
+        }
   } 
 }
-
-
-
-
-
 
